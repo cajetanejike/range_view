@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+.background-container {
+    /* height: 655px; */
+    background-image: url(/assests/images/black-white-houses.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(80, 77, 77);
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    transition-delay: 0.3s;
+    transition-duration: 4s;
+    text-shadow: 5px 20px 10px rgb(129, 127, 127);
+}
+.menu-list {
+    margin: 0px;
+    padding: 15px 0px 15px 0px;
+}
+.menu-dropdown {
+    display: inline;
+    top: 0;
+    width: 100%;
+    margin: 0px 70px;
+}
+.good-neighbor {
+    margin-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    transition-delay: 4s;
+    transition-duration: 4s;
+    animation-name: trial;
+    animation-duration: 7s;
+    text-shadow: 0px 10px 8px grey;
+}
+@keyframes trial {
+    0% {color: rgb(80, 77, 77);}
+    50% {color: blue;}
+    60% {color: rgb(236, 49, 190);}
+    70% {color: rgb(236, 49, 190);}
+    100% {color: rgb(247, 9, 9);}
+}
+.a-text {
+    position: relative;
+    color: rgb(170, 118, 118);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.a-text:hover {
+    font-size: 18px;
+    transition: 0.2s;
+    color: rgb(219, 103, 103);
+    text-shadow: 0px 10px 30px rgb(219, 103, 103);
+    border-radius: 20px;
+}
+/* .second-section {
+    background-color: #e2e5e4;
+    height: 655px;
+    border-top: solid;
+    border-color: rgb(170, 118, 118);
+} */
+
+/* ABOUT US */
+
+.about-us-body {
+    background-color: #dfdfdf;
+}
+.about-us-1 {
+    display: inline-block;
+    width: 500px;
+    margin: 40px 60px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-us-2 {
+    display: inline-block;
+    width: 500px;
+    margin: 40px 60px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-us-3 {
+    display: inline-block;
+    width: 500px;
+    margin: 40px 60px;
+    text-align: justify;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.about-us-4 {
+    display: inline-block;
+    height: 700px;
+    width: 500px;
+    margin-top: 0;
+    background-image: url(/assests/images/black-white-portrait.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* PROJECTS */
+
+.projects-body {
+    position: absolute;
+    width: 100%;
+    height: 655px;
+    background-image: url(/assests/images/asphalt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a-text-projects {
+    position: relative;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.a-text-projects:hover {
+    font-size: 18px;
+    transition: 0.2s;
+    color: rgb(219, 103, 103);
+    text-shadow: 0px 10px 30px rgb(219, 103, 103);
+    border-radius: 20px;
+}
+.projects-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 655px;
+    background: rgba(0,0,0,0.6);
+}
+.project-heading {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.project-text {
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 500;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.project-div {
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 40px;
+    vertical-align: top;
+    width: 350px;
+    height: 300px;
+}
+.first-photo {
+    background-image: url(/assests/images/asphalt-construction-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.second-photo {
+    background-image: url(/assests/images/road-construct.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.third-photo {
+    background-image: url(/assests/images/asphalt.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* COMMUNITY */
+
+.community-body {
+    position: absolute;
+    width: 100%;
+    height: 655px;
+    /* height: 100vh; */
+    background-image: url(assests/images/ariel-view-estate.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a-text-community {
+    position: relative;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+.a-text-community:hover {
+    font-size: 18px;
+    transition: 0.2s;
+    color: rgb(219, 103, 103);
+    text-shadow: 0px 10px 30px rgb(219, 103, 103);
+    border-radius: 20px;
+}
+.community-body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 657px;
+    background: rgba(0,0,0,0.8);
+}
+.community-heading {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.community-text {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+    width: 450px;
+    height: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: white;
+}
+.community-photo-div {
+    position: relative;
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    margin-left: 40px;
+    background-image: url(/assests/images/group-of-friends.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+/* MEDIA QUERY */
+
+@media screen and (min-width: 481px) {
+    
+}
+@media screen and (min-width: 769px) {
+    
+}
+@media screen and (min-width: 1025px) {
+    
+}
+@media screen and (min-width: 1201px) {
+    
+}
